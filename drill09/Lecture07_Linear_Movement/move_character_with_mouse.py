@@ -16,7 +16,6 @@ def handle_events():
         #     x, y = event.x, TUK_HEIGHT - 1 - event.y
         elif event.type == SDL_KEYDOWN and event.key == SDLK_ESCAPE:
             running = False
-    pass
 
 
 
@@ -77,7 +76,6 @@ while running:
     handle_events()
 
 close_canvas()
-
 
 
 
